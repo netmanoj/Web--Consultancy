@@ -88,7 +88,6 @@
     max-width: var(--container-narrow);
   }
   
-  /* Header */
   .header {
     margin: 1.5rem auto;
   }
@@ -193,7 +192,6 @@
     margin-bottom: 0.7rem;
   }
   
-  /* Team */
   .team {
     padding: 3rem 0 4rem;
   }
@@ -207,7 +205,6 @@
     border-radius: 10px;
   }
   
-  /* Contact */
   .contact {
     padding: 3rem 0 4rem;
   }
@@ -231,19 +228,19 @@
     padding-bottom: 1rem;
   }
   
-  .contact textarea {
+.contact textarea {
     height: 200px;
   }
   
-  .contact input:focus,
-  .contact textarea:focus {
+.contact input:focus,
+.contact textarea:focus {
     outline: 0;
   }
   
   .contact button {
     width: 100%;
   }
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
     .header .header-flex,
     .footer .footer-flex,
     .services .services-flex,
@@ -252,19 +249,19 @@
       gap: 1.5rem;
     }
   
-    .hero {
+  .hero {
       height: 300px;
     }
   
-    .hero h2 {
+  .hero h2 {
       font-size: 1.8rem;
     }
   
-    .gallery-item {
+  .gallery-item {
       width: calc(50% - 20px);
     }
   
-    .footer .footer-flex {
+  .footer .footer-flex {
       text-align: center;
     }
   }
